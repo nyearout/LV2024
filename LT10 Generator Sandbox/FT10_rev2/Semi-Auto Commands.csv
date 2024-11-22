@@ -1,0 +1,9 @@
+Unitherm Load,Port,Mode,Power Level,Activation Duration
+500,Mono1,Pure,3,500
+1000,Mono2,Blend,6,1000
+1500,Bipolar,Standard,9,1500
+50,Ligasure,Ligasure,12,1800
+700,Mono1,Spray,6,1200
+3000,Mono2,Fulgerate,4,400
+2100,Bipolar,Precision,1,1250
+50,Ligasure,Ligasure,30,1500

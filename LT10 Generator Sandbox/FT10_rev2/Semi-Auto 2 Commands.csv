@@ -1,0 +1,6 @@
+Activation Method,Unitherm Load,Port,Mode,Power Level,Activation Duration
+Handswitch,500.0,Mono1,Pure,2.0,500.0
+Footswitch,1000.0,Mono2,Fulgerate,2.0,500.0
+Footswitch,750.0,Mono1,Spray,2.0,500.0
+Handswitch,200.0,Mono2,Blend,2.0,500.0
+Footswitch,200.0,Bipolar,Standard,2.0,500.0
