@@ -1,0 +1,19 @@
+Unitherm Load,Port,Mode,Power Level,Activation Duration
+22,Bipolar,Macro,7,500
+22,Bipolar,Macro,7,1000
+22,Bipolar,Macro,7,1500
+4096,Bipolar,Macro,7,500
+4096,Bipolar,Macro,7,1000
+4096,Bipolar,Macro,7,1500
+22,Bipolar,Macro,35,500
+22,Bipolar,Macro,35,1000
+22,Bipolar,Macro,35,1500
+1786,Bipolar,Macro,35,500
+1786,Bipolar,Macro,35,1000
+1786,Bipolar,Macro,35,1500
+22,Bipolar,Macro,70,500
+22,Bipolar,Macro,70,1000
+22,Bipolar,Macro,70,1500
+893,Bipolar,Macro,70,500
+893,Bipolar,Macro,70,1000
+893,Bipolar,Macro,70,1500

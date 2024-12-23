@@ -1,0 +1,19 @@
+Unitherm Load,Port,Mode,Power Level,Activation Duration
+22,Bipolar,Standard,7,500
+22,Bipolar,Standard,7,1000
+22,Bipolar,Standard,7,1500
+550,Bipolar,Standard,7,500
+550,Bipolar,Standard,7,1000
+550,Bipolar,Standard,7,1500
+22,Bipolar,Standard,35,500
+22,Bipolar,Standard,35,1000
+22,Bipolar,Standard,35,1500
+550,Bipolar,Standard,35,500
+550,Bipolar,Standard,35,1000
+550,Bipolar,Standard,35,1500
+22,Bipolar,Standard,70,500
+22,Bipolar,Standard,70,1000
+22,Bipolar,Standard,70,1500
+550,Bipolar,Standard,70,500
+550,Bipolar,Standard,70,1000
+550,Bipolar,Standard,70,1500

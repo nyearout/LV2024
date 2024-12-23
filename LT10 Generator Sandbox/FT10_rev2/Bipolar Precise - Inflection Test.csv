@@ -1,0 +1,19 @@
+Unitherm Load,Port,Mode,Power Level,Activation Duration
+22,Bipolar,Precision,7,500
+22,Bipolar,Precision,7,1000
+22,Bipolar,Precision,7,1500
+500,Bipolar,Precision,7,500
+500,Bipolar,Precision,7,1000
+500,Bipolar,Precision,7,1500
+35,Bipolar,Precision,35,500
+35,Bipolar,Precision,35,1000
+35,Bipolar,Precision,35,1500
+214,Bipolar,Precision,35,500
+214,Bipolar,Precision,35,1000
+214,Bipolar,Precision,35,1500
+70,Bipolar,Precision,70,500
+70,Bipolar,Precision,70,1000
+70,Bipolar,Precision,70,1500
+107,Bipolar,Precision,70,500
+107,Bipolar,Precision,70,1000
+107,Bipolar,Precision,70,1500
