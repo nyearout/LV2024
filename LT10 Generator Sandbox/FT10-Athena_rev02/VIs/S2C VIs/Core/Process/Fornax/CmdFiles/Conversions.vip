@@ -1,0 +1,35 @@
+forget all
+
+: cnv_uint     
+  dup uint 0x07FFFFFF > if int else uint then     
+;   
+
+// Convert from FIX_xx_24 to float     
+: float_xx_24 cnv_uint 5.960464477539063e-008 * float ;  
+
+rfmonitor.get
+
+//Disable IEC Error Checking
+0 rfmonitor.iec.enable.set
+
+//Disable PVI Limits
+0 rfmonitor.pvi.enable.set
+
+//Disable Clipping of CPhase
+0 rfmonitor.clipping.enable.set
+
+0 rfmonitor.compare.enable.set
+
+0 rfmonitor.rfcomp.enable.set
+
+rfmonitor.set
+
+: wait_ms     
+
+10 * 0x80010174 mem.read int +     
+
+begin dup 0x80010174 mem.read swap >= if break then yield loop     
+
+drop     
+
+;     

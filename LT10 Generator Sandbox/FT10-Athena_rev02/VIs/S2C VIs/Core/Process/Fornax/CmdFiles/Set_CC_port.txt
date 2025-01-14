@@ -1,0 +1,1 @@
+%s cablecomp.elect.set	50	0

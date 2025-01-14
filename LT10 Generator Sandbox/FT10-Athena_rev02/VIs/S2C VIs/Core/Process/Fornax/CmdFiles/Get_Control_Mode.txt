@@ -1,0 +1,1 @@
+0x80030000 mem.read 0x30000 bit.and 65536 uint / .	300	0

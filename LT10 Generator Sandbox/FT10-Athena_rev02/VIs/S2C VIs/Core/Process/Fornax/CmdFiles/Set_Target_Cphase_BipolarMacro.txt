@@ -1,0 +1,2 @@
+rf.off	50	0
+%s 5 1 rf.open	50	0

@@ -1,0 +1,1 @@
+0x80010198 mem.read float_xx_19 0x80010194 mem.read float_xx_12 . .	300	0

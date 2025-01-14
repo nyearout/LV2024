@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><?xml-stylesheet type="text/xsl" href="IS_XML_V2.xsl"?><IntraStageXMLFile>
+<FileInfo>
+<IntraStageFileVersion>2.0</IntraStageFileVersion>
+<LastModifiedBy>Tom Armes</LastModifiedBy>
+<LastModifiedDate>3/15/2010</LastModifiedDate>
+<Comment>Covidien - KP 12/4/2013</Comment>
+</FileInfo>
+<Events>
+<Event><EventName>MyEventName</EventName><ProcessName>MyProcessName</ProcessName><ProductLine>MyProductLine</ProductLine><Station>MyStation</Station><OperatorName>MyOperatorName</OperatorName><Location>MyLocation</Location><StartTime>MyStartTime</StartTime></Event></Events>
+</IntraStageXMLFile>

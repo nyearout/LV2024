@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="IS_XML_V2.xsl"?>
+<IntraStageXMLFile>
+<FileInfo>
+<IntraStageFileVersion>2.0</IntraStageFileVersion>
+<LastModifiedBy>Tom Armes</LastModifiedBy>
+<LastModifiedDate>3/15/2010</LastModifiedDate>
+<Comment>Covidien - KP 12/4/2013</Comment>
+</FileInfo>
+<Events>
+<Event>
+<EventName>Hardware_JSWUpdate_Event</EventName>
+<ProcessName>Manufacturing</ProcessName>
+<ProductLine>Hardware</ProductLine>
+<EventStatus>Failed</EventStatus>
+<EventStart>2024-09-19 09:01:35.665</EventStart>
+<EventStop>2024-09-19 09:02:11.735</EventStop>
+<Station>HW_JSWUpdate1</Station>
+<OperatorName>1234</OperatorName>
+<Location></Location>
+<Assets>
+<Asset>
+<SN>T1A00030DX</SN>
+<Model>VLFT10FXGEN</Model>
+<Manufacturer>Medtronic</Manufacturer>
+</Asset>
+</Assets>
+<MetaData>
+<MetaItem>
+<MetaName>GTIN_External</MetaName>
+<MetaValue>10884521829527</MetaValue>
+</MetaItem>
+<MetaItem>
+<MetaName>Shift</MetaName>
+<MetaValue>1</MetaValue>
+</MetaItem>
+</MetaData>
+    <Tests>
+<Test>
+<TestName>JSWUpdate_Tests</TestName>
+<TestDateTime>2024-09-19 09:02:11.570</TestDateTime>
+<TestStatus>Failed</TestStatus>
+<Comment></Comment>
+<Measurements>
+<Measurement>
+<MeasurementName>SW Version Check</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.730</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>5.0.0</MeasurementValueString>
+<TargetValue>5.0.1</TargetValue>
+<MeasurementStatus>Failed</MeasurementStatus>
+</Measurement>
+<Measurement>
+<MeasurementName>System Model Type</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.725</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>Valleylab FT10 Electrosurgical Generator</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Soft Coag Mode Entitled</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.719</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>True</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Soft Coag Mode Status</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.713</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>Ready For Use</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Shared Coag Mode Entitled</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.708</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>True</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Shared Coag Mode Status</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.703</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>Ready For Use</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Auto Bipolar Entitled</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.698</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>True</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Auto Bipolar Status</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.693</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>Ready For Use</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Bipolar Ammeter Entitled</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.688</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>True</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Bipolar Ammeter Status</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.682</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>Ready For Use</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>FX Low/Standard/Macro Bipolar Modes Entitled</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.676</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>True</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>FX Low/Standard/Macro Bipolar Modes Status</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.671</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>Ready For Use</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Cardioblate Support Entitled</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.666</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>False</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Cardioblate Support Status</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.661</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>Feature Not Entitled</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Einstein Mode Entitled</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.655</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>False</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Einstein Mode Status</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.649</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>Feature Not Entitled</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>V-Lab on Cut MONO1 Entitled</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.644</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>False</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>V-Lab on Cut MONO1 Status</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.638</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>Feature Not Entitled</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>V-Lab on Cut MONO2 Entitled</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.633</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>False</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>V-Lab on Cut MONO2 Status</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.627</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>Feature Not Entitled</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Endo Mode Entitled</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.622</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>False</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Endo Mode Status</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.617</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>Feature Not Entitled</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Animal Health Entitled</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.612</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueBoolean>False</MeasurementValueBoolean>
+<TargetValue>False</TargetValue>
+<MeasurementStatus>Passed</MeasurementStatus>
+</Measurement>
+<Measurement>
+<MeasurementName>Animal Health Status</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.607</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>Feature Not Entitled</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Model Type ES-only Entitled</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.601</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueBoolean>True</MeasurementValueBoolean>
+<TargetValue>True</TargetValue>
+<MeasurementStatus>Passed</MeasurementStatus>
+</Measurement>
+<Measurement>
+<MeasurementName>Model Type ES-only Status</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.596</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>Ready For Use</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Model Type LS-only Entitled</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.591</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueBoolean>False</MeasurementValueBoolean>
+<TargetValue>False</TargetValue>
+<MeasurementStatus>Passed</MeasurementStatus>
+</Measurement>
+<Measurement>
+<MeasurementName>Model Type LS-only Status</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.586</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>Feature Not Entitled</MeasurementValueString>
+</Measurement>
+<Measurement>
+<MeasurementName>Country Code Check</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.580</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>0</MeasurementValueString>
+<TargetValue>0</TargetValue>
+<MeasurementStatus>Passed</MeasurementStatus>
+</Measurement>
+<Measurement>
+<MeasurementName>Region Code Check</MeasurementName>
+<MeasurementDateTime>2024-09-19 09:02:11.575</MeasurementDateTime>
+<Comment></Comment>
+<MeasurementValueString>0</MeasurementValueString>
+<TargetValue>0</TargetValue>
+<MeasurementStatus>Passed</MeasurementStatus>
+</Measurement>
+</Measurements>
+</Test>
+</Tests>
+</Event>
+</Events>
+</IntraStageXMLFile>

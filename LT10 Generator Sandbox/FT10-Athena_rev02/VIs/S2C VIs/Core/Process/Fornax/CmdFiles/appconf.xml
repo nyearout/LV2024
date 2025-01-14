@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppConf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TabIndex>1</TabIndex>
+  <CommPort>3</CommPort>
+  <CommIfType>EmpUsb</CommIfType>
+  <CaffDir>C:\aaa\Caff</CaffDir>
+  <GraphVisible>true</GraphVisible>
+  <SplitLocation>575</SplitLocation>
+  <MainFormSize>
+    <Width>1288</Width>
+    <Height>1002</Height>
+  </MainFormSize>
+  <MainFormLocation>
+    <X>0</X>
+    <Y>22</Y>
+  </MainFormLocation>
+  <GraphList>
+    <GraphItem>
+      <Name>Vrms</Name>
+      <MinY>0</MinY>
+      <MaxY>650</MaxY>
+      <TimeSec>20</TimeSec>
+      <RfIndex>4</RfIndex>
+    </GraphItem>
+    <GraphItem>
+      <Name>Irms</Name>
+      <MinY>0</MinY>
+      <MaxY>3</MaxY>
+      <TimeSec>20</TimeSec>
+      <RfIndex>5</RfIndex>
+    </GraphItem>
+    <GraphItem>
+      <Name>Pavg_apparent</Name>
+      <MinY>0</MinY>
+      <MaxY>500</MaxY>
+      <TimeSec>20</TimeSec>
+      <RfIndex>3</RfIndex>
+    </GraphItem>
+    <GraphItem>
+      <Name>Zload</Name>
+      <MinY>0</MinY>
+      <MaxY>2000</MaxY>
+      <TimeSec>20</TimeSec>
+      <RfIndex>23</RfIndex>
+    </GraphItem>
+  </GraphList>
+</AppConf>
